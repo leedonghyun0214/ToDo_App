@@ -1,3 +1,5 @@
+package todo.util;
+
 import java.time.LocalDate; //시,분초 없이 날짜만 가져오는 클래스
 import java.time.format.DateTimeFormatter; // 문자열->날짜로 바꾸는 포멧터(포멧들을 담는 객체) 클래스 -> 원래 알고리즘에서 변환 하던걸 자바 자체에서 클래스화
 import java.time.format.DateTimeParseException; // 위 과정에서 나오는 예외 타입 클래스
